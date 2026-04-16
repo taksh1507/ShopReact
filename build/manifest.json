@@ -1,0 +1,8 @@
+{
+  "short_name": "ShopReact",
+  "name": "ShopReact E-commerce",
+  "start_url": "/ShopReact/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
