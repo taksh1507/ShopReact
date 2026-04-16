@@ -9,7 +9,7 @@
 }
 
 .nav-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,7 @@
 }
 
 .nav-logo {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 800;
   color: white;
   display: flex;
@@ -30,7 +30,7 @@
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 40px;
+  gap: 50px;
   margin: 0;
   padding: 0;
 }
@@ -39,20 +39,20 @@
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.95rem;
-  transition: all 0.3s ease;
+  font-size: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
 
 .nav-menu a::after {
   content: '';
   position: absolute;
-  bottom: -4px;
+  bottom: -6px;
   left: 0;
   width: 0;
-  height: 2px;
-  background-color: var(--accent-color);
-  transition: width 0.3s ease;
+  height: 2.5px;
+  background: linear-gradient(90deg, var(--accent-color), var(--primary-color));
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-menu a:hover {
@@ -79,7 +79,7 @@
   height: 2.5px;
   background-color: white;
   border-radius: 2px;
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hamburger.active span:nth-child(1) {
@@ -92,6 +92,12 @@
 
 .hamburger.active span:nth-child(3) {
   transform: rotate(-45deg) translate(7px, -7px);
+}
+
+@media (max-width: 1024px) {
+  .nav-menu {
+    gap: 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -107,7 +113,7 @@
     background: linear-gradient(135deg, var(--dark-bg) 0%, #242424 100%);
     width: 100%;
     text-align: center;
-    transition: left 0.3s ease;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     padding: 30px 0;
     gap: 0;
     box-shadow: var(--shadow-lg);

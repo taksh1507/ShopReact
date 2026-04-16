@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ShopReact/static/css/main.08ee4c50.css",
+    "main.css": "/ShopReact/static/css/main.d5744754.css",
     "main.js": "/ShopReact/static/js/main.cd34579e.js",
     "static/js/453.e6b92ac2.chunk.js": "/ShopReact/static/js/453.e6b92ac2.chunk.js",
     "index.html": "/ShopReact/index.html",
-    "main.08ee4c50.css.map": "/ShopReact/static/css/main.08ee4c50.css.map",
+    "main.d5744754.css.map": "/ShopReact/static/css/main.d5744754.css.map",
     "main.cd34579e.js.map": "/ShopReact/static/js/main.cd34579e.js.map",
     "453.e6b92ac2.chunk.js.map": "/ShopReact/static/js/453.e6b92ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ee4c50.css",
+    "static/css/main.d5744754.css",
     "static/js/main.cd34579e.js"
   ]
 }
